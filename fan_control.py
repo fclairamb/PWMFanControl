@@ -7,8 +7,8 @@ import time                    # Calling time to allow delays to be used
 import subprocess              # Calling subprocess to get the CPU temperature
 import logging
 
-MAX_TEMP=50.0
-MIN_TEMP=70.0
+MAX_TEMP=70.0
+MIN_TEMP=50.0
 MIN_DUTY_INCREMENT=5
 MIN_DUTY_DECREMENT=10
 PWM_FREQUENCY=100
